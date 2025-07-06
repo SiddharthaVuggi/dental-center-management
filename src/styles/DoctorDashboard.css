@@ -1,0 +1,191 @@
+.dash {
+  background-color: rgba(255, 255, 255, 0.926); 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.hello {
+  margin: 0;
+  font-size: 2rem;
+  color: rgb(107, 223, 236);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.admin-avatar img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.admin-avatar img:hover {
+  transform: scale(1.1);
+}
+
+.home-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #6cadf3;
+}
+
+.dashboard-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dashboard-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+form input,
+form select {
+  flex: 1 1 200px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: #b02a37;
+}
+
+table {
+  border: 2px solid black;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.patient-add {
+  background-color: rgba(173, 216, 230, 0.8);
+  padding: 2rem;
+  padding-top: 5px;
+  margin-top: 3px;
+  border-radius: 25px;
+  margin-left: 0.2px;
+  margin-right: 0.2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.patient-add:hover {
+  transform: scale(1.02) translateY(-3px);
+}
+
+.incident {
+  padding: 2rem;
+  padding-top: 10px;
+  margin-top: 10px;
+  background-color: rgba(173, 216, 230, 0.8);
+  border-radius: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.incident:hover {
+  transform: scale(1.02) translateY(-3px);
+}

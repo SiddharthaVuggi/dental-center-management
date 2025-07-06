@@ -1,0 +1,73 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  min-height: 100vh;
+  background-color: rgb(173, 216, 230);
+  background-image: url('/women_teeth.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.landing-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  z-index: 1;
+  color: rgb(173, 216, 230);
+}
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.role-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.role-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 260px;
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: transparent;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.role-card:hover {
+  transform: scale(1.07);
+}
+
+.role-icon {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;      
+  margin-bottom: 0.3rem; 
+  border-radius: 50%;     
+  border: 2px solid #fff; 
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+.role-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(173, 216, 230);
+}
