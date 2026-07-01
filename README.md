@@ -1,13 +1,11 @@
 # Dental Center Management System
-
 A comprehensive web-based system for managing appointments, patient data, and doctor interactions at a dental clinic.
 
 # Features
 - Doctor and Patient login support
-- Add, Edit, and Cancel Appointments
+- Add, Edit & Cancel Appointments
 - File upload support (PDFs, X-rays, Images)
-- Add comments to appointments
-- View patient and incident (appointment) tables
+- View patient and incident (appointment) tables 
 - Manage appointment status (Pending, Completed, Cancelled)
 
 # Technical Decisions
@@ -23,7 +21,7 @@ A comprehensive web-based system for managing appointments, patient data, and do
 
 # vercel link : https://dental-center-management-git-main-siddhartha-vuggis-projects.vercel.app/
 
-# screen shots :
+# screen shots for your reference:
 
 ![image](https://github.com/user-attachments/assets/dca5af98-2190-4f18-ac6d-cdfc1c871930)
 
